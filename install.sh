@@ -8,8 +8,4 @@ pnpm i --frozen-lockfile && pnpm build && cd ..
 
 rm -rf server/dist && cp -r web/dist server/
 
-go build -o memos ./main.go && cd ..
-
-cp -f builder/memos .
-
-rm -rf builder
+echo "请手动在shell窗口执行reboot命令以清理Cache Memory。"
