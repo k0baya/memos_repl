@@ -13,7 +13,7 @@ Then，input the following command in the shell window to build the frontend of 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/k0baya/memos_repl/main/install.sh)
 ```
-#### Due to Replit's Cache Memory is only have 2G， when it's done, **you have to input command `reboot` in the shell window to release Cache Memory**.
+#### Due to Replit's Cache Memory is too small to build it， when it's done, **you have to input command `reboot` in the shell window to release Cache Memory**.
 
 When you reconnected with your repl, click the Run button and enjoy~
 
