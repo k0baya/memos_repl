@@ -9,4 +9,7 @@ else
     echo "直接运行..."
 fi
 
-chmod +x memos && ./memos
+mkdir -p data
+mkdir -p data/.thumbnail_cache
+
+chmod +x memos && ./memos --data data --mode prod
